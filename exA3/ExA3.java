@@ -16,7 +16,7 @@ public class ExA3 {
 		System.out.println("Everything is ok for " + title + " course, duration " + numberOfDays + " days, at a price of " + pricePerDay + " EUR per day");
 		System.out.println("numbers of instructors " + instructors.size());
 		
-		totalPrice = numberOfDays * pricePerDay;
+		totalPrice = numberOfDays * pricePerDay*1.21;
 		System.out.println("Total price of the course " + totalPrice + " EUR");
 	}
 }
