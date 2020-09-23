@@ -1,0 +1,7 @@
+Salary of sdfat 32 is 2000.0
+Salary of sdfat 37 is 2060.0
+Salary of sdfat 42 is 2121.8
+Salary of sdfat 47 is 2185.454
+Salary of sdfat 52 is 2251.01762
+Salary of sdfat 57 is 2318.5481486000003
+Salary of sdfat 62 is 2388.1045930580003
