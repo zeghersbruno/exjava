@@ -1,3 +1,5 @@
+package exD2;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
@@ -70,7 +72,7 @@ public class ExD2 {
         double totalPrice = calculateTotal(numberOfDays, pricePerDay, priorKnowledge);
         System.out.println("Total price " + totalPrice + "(" + labelTotalPrice(totalPrice) + ")");
 
-        String fileName = "C:/Users/bruno/workspace/git/JavaReskilling/GitProjects/exjava/exD2/courseinfo.txt";
+        String fileName = "C:\\Users\\bruno\\IdeaProjects\\exjava\\resources\\courseinfo.txt";
         try {
             File myOutputFile = new File(fileName);
             if (myOutputFile.createNewFile()) {

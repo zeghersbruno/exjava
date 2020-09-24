@@ -1,3 +1,7 @@
+package exE1;
+
+import Utilities.UtilityClass;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -63,7 +67,7 @@ public class ExE1 {
         userInput.close();
         List<String> listLine = new ArrayList<>();
         listLine = printSalaryHistory(instructorFirstName, instructorLastName, instructorAge, instructorSartingAge, instructorFirstSalary);
-        String fileName = "C:/Users/bruno/workspace/git/JavaReskilling/GitProjects/exjava/exE1/courseinfo.txt";
+        String fileName = "C:\\Users\\bruno\\IdeaProjects\\exjava\\resources\\courseinfo.txt";
         UtilityClass.writeToFile(listLine, fileName);
     }
 

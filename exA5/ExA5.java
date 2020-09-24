@@ -1,15 +1,17 @@
+package exA5;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class ExA5 {
 	public static void main(String [] args) {
-		String title = "Python";
-		int numberOfDays = 5;
-		double pricePerDay = 400.00;
+		String title;
+		int numberOfDays;
+		double pricePerDay;
 		boolean priorKnowledge = false;
 		List<String> instructors = new ArrayList<>();
-		double totalPrice = 0.0;
+		double totalPrice;
 		
 		instructors.add("Sandy");
 		instructors.add("Marc");

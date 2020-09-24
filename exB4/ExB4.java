@@ -1,10 +1,12 @@
+package exB4;
+
 import java.util.Scanner;
 
 public class ExB4 {
 
     public static void main(String[] args) {
 
-        String lCode = "";
+        String lCode;
         Scanner userInput = new Scanner(System.in);
         System.out.println("Enter a language Code ");
         lCode = userInput.nextLine();

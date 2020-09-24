@@ -1,3 +1,5 @@
+package exD1;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -21,7 +23,7 @@ public class ExD1 {
         double totalPrice = 0.0;
 
         try {
-            File myInstructorsFile = new File("C:/Users/bruno/workspace/git/JavaReskilling/GitProjects/exjava/exD1/instructors.txt");
+            File myInstructorsFile = new File("C:\\Users\\bruno\\IdeaProjects\\exjava\\resources\\instructors.txt");
             Scanner myReader = new Scanner(myInstructorsFile);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();

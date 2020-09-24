@@ -1,3 +1,5 @@
+package exA1;
+
 public class ExA1 {
 	public static void main(String [] args) {
 		String title = "Python";

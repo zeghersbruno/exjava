@@ -1,3 +1,5 @@
+package exF1;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -9,6 +11,9 @@ public class Instructor {
     private LocalDate instBirthDate;
     private LocalDate instEntryDate;
     private double firstSalaris;
+
+    public Instructor() {
+    }
 
     public Instructor(String instFirstName, String instLastName, LocalDate instBirthDate, LocalDate instEntryDate, double firstSalaris) {
         this.instFirstName = instFirstName;
