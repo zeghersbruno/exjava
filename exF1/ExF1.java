@@ -28,7 +28,7 @@ public class ExF1 {
             System.out.println("Current age of " + i1.getInstFirstName() + " " + i1.calculateAge());
             i2.printSalaryHistory();
 
-            List<String> listInst = UtilityClass.readFromFile("C:\\Users\\bruno\\IdeaProjects\\exjava\\exF1\\ExF1.java");
+            List<String> listInst = UtilityClass.readFromFile("C:\\Users\\bruno\\IdeaProjects\\exjava\\resources\\instructorsData.txt");
 
             // read instructors file
             for (String line:listInst) {

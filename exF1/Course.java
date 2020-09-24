@@ -66,6 +66,9 @@ public class Course {
         double totalPrice = calculateTotal(numberOfDays, pricePerDay, priorKnowledge);
         System.out.println("Total price " + totalPrice + "(" + labelTotalPrice(totalPrice) + ")");
         System.out.println("Number of instructors : " + instructors.size());
+        for (Instructor instructor:instructors) {
+            System.out.println("Instructor for this course is " + instructor.getInstFirstName());
+        }
     }
 
     public double calculateTotal(int numberOfDays, double pricePerDay, boolean priorKnowledge) {
